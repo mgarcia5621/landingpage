@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(#b3650c, rgb(31, 31, 31));
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-btn {
+    background: rgb(194, 146, 146);
+    font-size: 20px;
+    border: none;
+    border-radius: 17px;
+    padding: 10px;
+}

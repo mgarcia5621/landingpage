@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="about">About</a>
+            <a href="contact">Contact</a>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="sign-in-div">
+                <button id="sign-in" onclick="signIn()">Sign In</button>
+                <div class="box-sign-in">
+                    Fill the forms down below to sign up with us!
+                    <div class="div-form">
+                        <form action="/action_page.php">
+                            <label for="fname">username</label><br>
+                            <input type="text" id="fname" name="fname" value=""><br>
+                            <label for="lname">password</label><br>
+                            <input type="text" id="lname" name="lname" value=""><br><br>
+                            <input class="btn-submit" type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <button onclick="darkMode()" class="darkmode">Dark Mode</button>
+        </div>
+    
+        <div class="grid-container">
+            <div class="grid-item item1">
+                <h1>Mateo's Landing Page</h1>
+                <div class="hero-desc-cont">
+    
+                    <p class="hero-desc">Welcome to my Landing Page! I created it from scratch
+                        I am pursuing a career in Front end Development this will be my portforlio landing page to see my
+                        latest projects
+                        feel free to contact me through email for any freelance projects. Enjoy the testing website in
+                        progress!
+                    </p>
+                </div>
+            </div>
+            <div class="grid-item item2">
+                <div class="gpt-desc">
+                    <h3>
+                        Mateo's freelancing side gig revolves around creating websites for local businesses and beyond.
+                        Armed
+                        with web design
+                        and development expertise, he crafts visually appealing and functional sites tailored to individual
+                        needs. Whether it's
+                        enhancing online presence or boosting e-commerce capabilities, Mateo ensures seamless user
+                        experiences
+                        and responsive
+                        designs. Dedicated to meeting deadlines and delivering quality results, he aims to foster lasting
+                        client
+                        relationships,
+                        expanding his freelancing venture with each successful project.
+                    </h3>
+                </div>
+    
+            </div>
+            <div class="grid-item item3">
+                <h1>Check out my favorite gifs!</h1>
+                <div class="mig-gif">
+                    <img style="border-radius: 18px;" src="/Images/miguel-o'hara-spider-verse.gif"
+                        alt="Miguel O'Hara being cool">
+                    <img style="border-radius: 18px;" src="/Images/kidbuu.gif" alt="Kid Buu dancing">
+                </div>
+            </div>
+            <div class="grid-item item4">
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, nam. Repudiandae corrupti
+                    pariatur animi illo quidem. Reprehenderit veritatis non quos ipsa, minus commodi deleniti? Officiis
+                    suscipit quos vero dolorem minus.</p>
+            </div>
+            <div class="grid-item item5">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi laboriosam, saepe vero, rerum ipsa
+                    explicabo atque sequi eligendi provident aperiam porro alias necessitatibus voluptatibus consequatur.
+                </p>
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="grid-item item1">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat aliquid ullam alias perspiciatis 
+                    debitis in qui repudiandae asperiores magni numquam, aspernatur quis veritatis omnis. Culpa ipsum 
+                    soluta sunt assumenda quasi?
+                </p>
+            </div>
+            <div class="grid-item item2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur 
+                perferendis veritatis architecto voluptatem cupiditate tempore fugit nesciunt dolor enim autem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt ducimus nulla labore laboriosam numquam.
+            </p>
+            </div>
+            <div class="grid-item item3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugiat nisi quis. Enim, autem 
+                ratione nulla saepe exercitationem harum necessitatibus inventore quam, eaque eligendi excepturi 
+                consequuntur.
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-mat">
+        <footer class="mateo">
+            Created By Mateo 2023
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
