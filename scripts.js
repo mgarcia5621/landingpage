@@ -65,9 +65,11 @@
 
 // let signIn = document.getElementById("sign-in");
 
-// function myFunction(x) {
-//     x.classList.toggle("change");
-//   }
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
+
   let index = 0; 
 
   function darkMode() {

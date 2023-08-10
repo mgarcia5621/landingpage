@@ -18,15 +18,37 @@
 
 <body>
     <div class="main-container">
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+
+            <div class="sidenav-mob">
+                <a class="active" href="#home">Home</a>
+                <a href="about">About</a>
+                <a href="contact">Contact</a>
+                <div id="sign-in-div">
+                    <button id="sign-in" onclick="signIn()">Sign In</button>
+                    <div class="box-sign-in">
+                        Fill the forms down below to sign up with us!
+                        <div class="div-form">
+                            <form action="/action_page.php">
+                                <label for="fname">username</label><br>
+                                <input type="text" id="fname" name="fname" value=""><br>
+                                <label for="lname">password</label><br>
+                                <input type="text" id="lname" name="lname" value=""><br><br>
+                                <input class="btn-submit" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="darkMode()" class="darkmode">Dark Mode</button>
+            </div>
+        </div>
         <div class="topnav">
             <a class="active" href="#home">Home</a>
             <a href="about">About</a>
             <a href="contact">Contact</a>
-            <div class="container" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
             <div id="sign-in-div">
                 <button id="sign-in" onclick="signIn()">Sign In</button>
                 <div class="box-sign-in">
@@ -44,14 +66,15 @@
             </div>
             <button onclick="darkMode()" class="darkmode">Dark Mode</button>
         </div>
-    
+
         <div class="grid-container">
             <div class="grid-item item1">
                 <h1>Mateo's Landing Page</h1>
                 <div class="hero-desc-cont">
-    
+
                     <p class="hero-desc">Welcome to my Landing Page! I created it from scratch
-                        I am pursuing a career in Front end Development this will be my portforlio landing page to see my
+                        I am pursuing a career in Front end Development this will be my portforlio landing page to see
+                        my
                         latest projects
                         feel free to contact me through email for any freelance projects. Enjoy the testing website in
                         progress!
@@ -64,18 +87,20 @@
                         Mateo's freelancing side gig revolves around creating websites for local businesses and beyond.
                         Armed
                         with web design
-                        and development expertise, he crafts visually appealing and functional sites tailored to individual
+                        and development expertise, he crafts visually appealing and functional sites tailored to
+                        individual
                         needs. Whether it's
                         enhancing online presence or boosting e-commerce capabilities, Mateo ensures seamless user
                         experiences
                         and responsive
-                        designs. Dedicated to meeting deadlines and delivering quality results, he aims to foster lasting
+                        designs. Dedicated to meeting deadlines and delivering quality results, he aims to foster
+                        lasting
                         client
                         relationships,
                         expanding his freelancing venture with each successful project.
                     </h3>
                 </div>
-    
+
             </div>
             <div class="grid-item item3">
                 <h1>Check out my favorite gifs!</h1>
@@ -94,31 +119,33 @@
             <div class="grid-item item5">
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi laboriosam, saepe vero, rerum ipsa
-                    explicabo atque sequi eligendi provident aperiam porro alias necessitatibus voluptatibus consequatur.
+                    explicabo atque sequi eligendi provident aperiam porro alias necessitatibus voluptatibus
+                    consequatur.
                 </p>
             </div>
         </div>
         <div class="second-section">
             <div class="grid-item item1">
                 <h1>About Me</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat aliquid ullam alias perspiciatis 
-                    debitis in qui repudiandae asperiores magni numquam, aspernatur quis veritatis omnis. Culpa ipsum 
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat aliquid ullam alias perspiciatis
+                    debitis in qui repudiandae asperiores magni numquam, aspernatur quis veritatis omnis. Culpa ipsum
                     soluta sunt assumenda quasi?
                 </p>
             </div>
-            <div class="grid-item item2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur 
-                perferendis veritatis architecto voluptatem cupiditate tempore fugit nesciunt dolor enim autem.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt ducimus nulla labore laboriosam numquam.
-            </p>
+            <div class="grid-item item2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                    perferendis veritatis architecto voluptatem cupiditate tempore fugit nesciunt dolor enim autem.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt ducimus nulla labore
+                    laboriosam numquam.
+                </p>
             </div>
             <div class="grid-item item3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugiat nisi quis. Enim, autem 
-                ratione nulla saepe exercitationem harum necessitatibus inventore quam, eaque eligendi excepturi 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugiat nisi quis. Enim, autem
+                ratione nulla saepe exercitationem harum necessitatibus inventore quam, eaque eligendi excepturi
                 consequuntur.
             </div>
         </div>
     </div>
-
     <div class="footer-mat">
         <footer class="mateo">
             Created By Mateo 2023
@@ -126,4 +153,5 @@
     </div>
     <script src="scripts.js"></script>
 </body>
+
 </html>
