@@ -69,20 +69,3 @@ function myFunction(x) {
     x.classList.toggle("change");
   }
 
-
-  let index = 0; 
-
-  function darkMode() {
-      let colors = "#1f1f1f";
-      const bodycolor = document.getElementsByTagName("body");
-      bodycolor.style.backgroundImage = colors;
-      if(bodycolor = '#1f1f1f') {
-        bodycolor = '#ffffff'
-      } else {
-        bodycolor = colors[0]
-      }
-      console.log(bodycolor)
-   
-  }
-  
-  

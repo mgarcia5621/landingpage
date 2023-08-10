@@ -173,15 +173,15 @@ body {
 .bar1,
 .bar2,
 .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
+    width: 40px;
+    height: 9px;
+    background-color: #ffffff;
     margin: 6px 0;
     transition: 0.4s;
 }
 
 .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
+    transform: translate(0, 15px) rotate(-45deg);
 }
 
 .change .bar2 {
@@ -189,7 +189,7 @@ body {
 }
 
 .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
+    transform: translate(0, -15px) rotate(45deg);
 }
 
 
@@ -330,7 +330,7 @@ body {
     }
 
     .sidenav-mob, a {
-        display: flex;
+        display: none;
         flex-direction: column;
         font-family: 'Viga', sans-serif;
         font-size: 20px;
@@ -353,6 +353,12 @@ body {
         padding: 0px;
         
     }
+
+    #ham-container {
+        max-width: 67rem;
+        padding-top: 13px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
