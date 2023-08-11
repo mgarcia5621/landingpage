@@ -361,10 +361,11 @@ body {
 
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 71rem;
+@media screen and (max-width: 320px) {
+    .grid-container {
+        padding-left: 0px;
     }
+   
 }
 
 .mig-gif {
