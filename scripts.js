@@ -65,7 +65,12 @@
 
 // let signIn = document.getElementById("sign-in");
 
-function myFunction(x) {
-    x.classList.toggle("change");
-  }
+// function myFunction(x) {
+//     x.classList.toggle("change");
+//     let ele = document.getElementById('mySideNav');
+//     ele.style.display("block");
+//   };
 
+  function myFunction(x) {
+    document.getElementsByClassName('sidenav-mob').style.display("Block")
+  }
