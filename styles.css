@@ -60,9 +60,9 @@ body {
 }
 
 .hero-desc {
-    font-size: 23px;
+    font-size: 28px;
     margin-top: 30px;
-    width: 53rem;
+    /* width: 53rem; */
 }
 
 #js-btn {
@@ -361,11 +361,43 @@ body {
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
     .grid-container {
+        padding-left: 4px;
+
+    }
+    .grid-item {
+        width: 23rem;
+        font-size: 18px;
+        /* height: 49rem; */
+        
+    }
+
+    .hero-desc {
+        width: 260px;
+        font-size: 20px;
+    }
+
+    .hero-desc-cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .second-section {
+        margin: 0px;    
         padding-left: 0px;
+        width: fit-content;
+        padding-right: 0px;
     }
    
+    .main-container {
+        width: 0px;
+    }
+
+    .footer-mat {
+        width: fit-content;
+    }
 }
 
 .mig-gif {
