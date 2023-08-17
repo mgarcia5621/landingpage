@@ -66,7 +66,22 @@
 // let signIn = document.getElementById("sign-in");
 
 function myFunction(x) {
-    x.classList.toggle("change");
-    let ele = document.getElementById('mySideNav');
-    ele.style.display("block");
-  };
+  x.classList.toggle("change");
+};
+
+// let closeNav = document.getElementById('mySideNav').style
+
+//   function showNav() {
+//     document.getElementById("sign-in").addEventListener('click, ')
+//   }
+
+// document.getElementById("myBtn").addEventListener("click", displayDate);
+
+// function displayDate() {
+//   document.getElementById("demo").innerHTML = Date();
+// }
+
+document.getElementById("darkmode").addEventListener('click', function() {
+  alert('Hello Dark Mode')
+  console.log('clicked');
+});
